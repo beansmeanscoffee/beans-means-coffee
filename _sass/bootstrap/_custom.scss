@@ -1,0 +1,11 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+$brand-primary:             #7B68EE !default;
+$body-bg:    				#1d1d1d !default;
+$body-color: 				#D3D3D3 !default;
+
+$link-color:            $brand-primary !default;
+$link-hover-color:      lighten($link-color, 15%) !default;

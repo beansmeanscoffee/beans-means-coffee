@@ -1,0 +1,77 @@
+<head>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="author" content="{{ site.author }}" />
+	<meta name="keyword" content="{{ site.title }}, {{ site.keywords }}">
+
+	<title>
+	    {% if page.title %}{{ page.title }} &middot; {{ site.title }}
+	    {% else %}{{ site.title }}{% endif %}
+	</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ "/styles/main.css" | prepend: site.baseurl }}">
+
+	<!-- Icons -->
+	<link rel="icon" href="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="apple-touch-icon" href="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="icon" type="image/png" href="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- URLs and feeds -->
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+	<!-- Facebook Open Graph -->
+	<meta property="fb:app_id" content="{{ site.facebook-id }}" />
+	<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+	<meta property="og:type" content="blog" />
+	<meta property="og:site_name" content="{{ site.title }}"/>
+	<meta property="article:author" content="{{ site.facebook-slug | pre-pend: 'https://www.facebook.com/'}}" />
+	<meta property="article:publisher" content="{{ site.facebook-slug }} | pre-pend: 'https://www.facebook.com/'" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html }}{% elsif page.summary %}{{ page.summary | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}" />
+	<meta property="og:image" content="{% if page.img %}{{ page.img | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="{{ site.twitter-username }}">
+	<meta name="twitter:creator" content="{{ site.twitter-username }}">
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html }}{% elsif page.summary %}{{ page.summary | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
+	<meta name="twitter:image" content="{% if page.img %}{{ page.img | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+
+	<!-- Google -->
+	<meta name="google-site-verification" content="{{ site.google-site-verification }}" />
+
+
+	{% if page.layout == "post" %}
+
+		<style>
+
+			div#hero-full {
+
+				background-image: url(/images/{{ page.hero }});
+				background-image: -webkit-image-set(url(/images/{{ page.hero }}) 1x,
+				url(/images/{{ page.hero-2x }}) 2x);
+				background-image: -moz-image-set(url(/images/{{ page.hero }}) 1x,
+				url(/images/{{ page.hero-2x }}) 2x);
+				background-image: -o-image-set(url(/images/{{ page.hero }}) 1x,
+				url(/images/{{ page.hero-2x }}) 2x);
+				background-image: -ms-image-set(url(/images/{{ page.hero }}) 1x,
+				url(/images/{{ page.hero-2x }}) 2x);
+
+				}
+
+		</style>
+
+	{% endif %}
+
+</head>

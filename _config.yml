@@ -1,0 +1,32 @@
+# Site settings
+
+title: Beans means coffee
+
+description: "We drink a lot of coffee. <br> This is what we think of the ones we try."
+keywords: "coffee, espresso, latte, beans, taste test, cafe, drink"
+
+baseurl: "" # e.g. /blog
+url: "http://beans-means-coffee.github.io" # e.g. http://example.com
+author: John Peart
+logo: "/assets/images/beans-means-coffee.png"
+
+# Social settings
+facebook-id: # For Facebook OpenGraph integration
+facebook-slug:  # Automatically pre-pends http://facebook.com/
+twitter-username: # Twitter handle i.e. joebloggs
+google-site-verification: # GSV code; proves domain ownership
+google-analytics: # UA identity
+
+# Plugins and build settings
+
+permalink: pretty
+markdown: kramdown
+future: false
+sass:
+    sass_dir: _sass
+    sourcemap: true
+
+gems:
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-redirect-from
