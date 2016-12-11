@@ -34,8 +34,8 @@
 	<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
 	<meta property="og:type" content="blog" />
 	<meta property="og:site_name" content="{{ site.title }}"/>
-	<meta property="article:author" content="{{ site.facebook-slug | pre-pend: 'https://www.facebook.com/'}}" />
-	<meta property="article:publisher" content="{{ site.facebook-slug }} | pre-pend: 'https://www.facebook.com/'" />
+	<meta property="article:author" content="{{ site.facebook-slug | prepend: 'https://www.facebook.com/' }}" />
+	<meta property="article:publisher" content="{{ site.facebook-slug | prepend: 'https://www.facebook.com/' }}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html }}{% elsif page.summary %}{{ page.summary | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}" />
 	<meta property="og:image" content="{% if page.img %}{{ page.img | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
