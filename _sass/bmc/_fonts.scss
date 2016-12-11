@@ -1,48 +1,52 @@
 @include media-breakpoint-between(xs, sm) {
 
-	h1, h2, h3, h4, h5, h6,
-	.h1, .h2, .h3, .h4, .h5, .h6 {
-	  margin-bottom: $headings-margin-bottom;
-	  font-family: $headings-font-family;
-	  font-weight: $headings-font-weight;
-	  line-height: $headings-line-height / 1.25;
-	  color: $headings-color;
-	}
+	div#hero-full {
 
-	h1, .h1 { font-size: $font-size-h1 / 3; }
-	h2, .h2 { font-size: $font-size-h2 / 3; }
-	h3, .h3 { font-size: $font-size-h3 / 3; }
-	h4, .h4 { font-size: $font-size-h4 / 3; }
-	h5, .h5 { font-size: $font-size-h5 / 3; }
-	h6, .h6 { font-size: $font-size-h6 / 3; }
+		h1, h2, h3, h4, h5, h6,
+		.h1, .h2, .h3, .h4, .h5, .h6 {
+		  margin-bottom: $headings-margin-bottom;
+		  font-family: $headings-font-family;
+		  font-weight: $headings-font-weight;
+		  line-height: $headings-line-height / 1.25;
+		  color: $headings-color;
+		}
 
-	.lead {
-	  font-size: $lead-font-size;
-	  font-weight: $lead-font-weight;
-	}
+		h1, .h1 { font-size: $font-size-h1 / 3; }
+		h2, .h2 { font-size: $font-size-h2 / 3; }
+		h3, .h3 { font-size: $font-size-h3 / 3; }
+		h4, .h4 { font-size: $font-size-h4 / 3; }
+		h5, .h5 { font-size: $font-size-h5 / 3; }
+		h6, .h6 { font-size: $font-size-h6 / 3; }
 
-	div#hero-date p {
-		font-size: $font-size-base * 1.5 !important;
-		line-height: $headings-line-height / 1.25;
-	}
+		.lead {
+		  font-size: $lead-font-size;
+		  font-weight: $lead-font-weight;
+		}
 
-	div#hero-excerpt p {
-		font-size: $font-size-base !important;
-		line-height: $headings-line-height / 1.25;
-	}
+		div#hero-date p {
+			font-size: $font-size-base * 1.5 !important;
+			line-height: $headings-line-height / 1.25;
+		}
 
-	// Type display classes
-	.display-1 {
-	  font-size: $display1-size / 3;
-	}
-	.display-2 {
-	  font-size: $display2-size / 3;
-	}
-	.display-3 {
-	  font-size: $display3-size / 3;
-	}
-	.display-4 {
-	  font-size: $display4-size / 3;
+		div#hero-excerpt p {
+			font-size: $font-size-base !important;
+			line-height: $headings-line-height / 1.25;
+		}
+
+		// Type display classes
+		.display-1 {
+		  font-size: $display1-size / 3;
+		}
+		.display-2 {
+		  font-size: $display2-size / 3;
+		}
+		.display-3 {
+		  font-size: $display3-size / 3;
+		}
+		.display-4 {
+		  font-size: $display4-size / 3;
+		}
+
 	}
 
 
