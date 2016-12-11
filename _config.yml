@@ -15,7 +15,11 @@ facebook-id: # For Facebook OpenGraph integration
 facebook-slug:  # Automatically pre-pends http://facebook.com/
 twitter-username: # Twitter handle i.e. joebloggs
 google-site-verification: # GSV code; proves domain ownership
-google-analytics: # UA identity
+
+
+#Analytics
+disable-analytics: true # Switch to "false" to start GA logging
+google-analytics: "" # GA ID code
 
 # Plugins and build settings
 
