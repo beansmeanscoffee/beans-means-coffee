@@ -6,6 +6,8 @@ div#home-button {
 		display: inline-block;
 		top: 1rem;
 		left: 1rem;
+
+		margin: 0 0 1rem 0;
 	}
 
 	@include media-breakpoint-only(sm) {
