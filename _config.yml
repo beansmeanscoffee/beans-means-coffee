@@ -8,7 +8,7 @@ keywords: "coffee, espresso, latte, beans, taste test, cafe, drink"
 baseurl: "" # e.g. /blog
 url: "http://coffee.johnpeart.org" # e.g. http://example.com
 author: John Peart and David Greaves
-logo: "/assets/images/beans-means-coffee.png"
+logo: "/beans-means-coffee.png"
 
 asset-path: "/assets"
 image-path: "/images"
