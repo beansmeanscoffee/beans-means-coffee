@@ -2,7 +2,7 @@
 
 title: Beans means coffee
 
-description: "We drink a lot of coffee. <br> This is what we think of the ones we try."
+description: "We drink a lot of coffee. This is what we think of the ones we try."
 keywords: "coffee, espresso, latte, beans, taste test, cafe, drink"
 
 baseurl: "" # e.g. /blog
@@ -10,16 +10,20 @@ url: "http://beansmeanscoffee.github.io" # e.g. http://example.com
 author: John Peart and David Greaves
 logo: "/assets/images/beans-means-coffee.png"
 
-# Social settings
-facebook-id: # For Facebook OpenGraph integration
-facebook-slug:  # Automatically pre-pends http://facebook.com/
-twitter-username: # Twitter handle i.e. joebloggs
-google-site-verification: # GSV code; proves domain ownership
+asset-path: "/assets"
+image-path: "/images"
+image-2x-path: "/images/@2x"
 
+# Social settings
+facebook-id: "" # For Facebook OpenGraph integration
+facebook-slug: "" # Automatically pre-pends http://facebook.com/
+twitter-username: "" # Twitter handle i.e. joebloggs
+github-username:  ""
+google-site-verification: "GMEFdAl3i-jN_Jkdb_jrS-LWZPUEQ7Bx4fPcyQ7YSCU" # GSV code; proves domain ownership
 
 #Analytics
-disable-analytics: true # Switch to "false" to start GA logging
-google-analytics: "" # GA ID code
+disable-analytics: false # Switch to "false" to start GA logging
+google-analytics: "UA-27553664-5" # GA ID code
 
 # Plugins and build settings
 

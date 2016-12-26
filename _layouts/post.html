@@ -2,15 +2,35 @@
 layout: default
 ---
 
-{% include hero.html %}
+<div id="post">
 
-<div id="post-content"class="container">
+	<div id="header">
 
-	<div class="row">
+		<div class="container">
 
-		<div class="col-xs-12 col-md-8">
+			<h1>
+				<span class="small-header">Beans means coffee</span>
+				{{ page.title }}
+			</h1>
+			<a class="arrow-down" href="#post-content"></a>
 
-			{{ content }}
+		</div>
+
+	</div>
+
+	<div id="post-content">
+
+		<div class="container">
+
+			<div class="row flex-items-xs-center">
+
+				<div class="col-xs-12 col-sm-10 col-md-8">
+
+					{{ content }}
+
+				</div>
+
+			</div>
 
 		</div>
 

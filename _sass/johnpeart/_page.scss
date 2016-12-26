@@ -1,0 +1,188 @@
+div#blog-reel {
+
+	position: relative;
+
+	width: 100vw;
+
+	margin: 0;
+	padding: 0;
+
+    div#header {
+
+		width: 100%;
+		height: 100vh;
+
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	    background-image: url(/assets/images/home-bg/coffee.jpg);
+		background-image: -webkit-image-set(url(/assets/images/home-bg/coffee.jpg) 1x,
+		   url(/assets/images/home-bg/coffee-2x.jpg) 2x);
+		background-image: -moz-image-set(url(/assets/images/home-bg/coffee.jpg) 1x,
+		   url(/assets/images/home-bg/coffee-2x.jpg) 2x);
+		background-image: -o-image-set(url(/assets/images/home-bg/coffee.jpg) 1x,
+		   url(/assets/images/home-bg/coffee-2x.jpg) 2x);
+		background-image: -ms-image-set(url(/assets/images/home-bg/coffee.jpg) 1x,
+		   url(/assets/images/home-bg/coffee-2x.jpg) 2x);
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		div.container {
+
+			h1 {
+				@include text-shadow-shallow;
+				text-align: center;
+				text-transform: uppercase;
+				clear: both;
+
+				font-size: $font-size-h1 * 1.5;
+				font-weight: 800;
+				line-height: $line-height-base * 0.6;
+
+				span.small-header {
+					position: relative;
+					display: block;
+					clear: both;
+					font-size: $font-size-h1 /2;
+				}
+			}
+
+			.arrow-down:before {
+				position: absolute; // was position: absolute;
+				display: block;
+				float: left;
+				top: 90vh; // was bottom: 15%;
+				left: 50%;
+				margin-left: -1.2rem;
+
+				height: 3rem;
+				width: 3rem;
+				font-size: 3rem;
+				font-weight: 600;
+				line-height: 3rem;
+
+				content: "↓";
+				z-index: 100000 !important;
+
+				@include text-shadow-shallow;
+			}
+
+			.arrow-left {
+				position: absolute;
+				left: -25%;
+				top: 50%;
+				margin-top: calc(-48px / 2);
+			}
+
+			@include media-breakpoint-only(sm) {
+				h1 {
+					font-size: $font-size-h1 * 2.0;
+
+					span.small-header {
+						position: relative;
+						display: block;
+						clear: both;
+						font-size: $font-size-h1 /1.5;
+					}
+				}
+			}
+			@include media-breakpoint-only(md) {
+				h1 {
+					font-size: $font-size-h1 * 2.5;
+
+					span.small-header {
+						position: relative;
+						display: block;
+						clear: both;
+						font-size: $font-size-h1;
+					}
+				}
+			}
+			@include media-breakpoint-only(lg) {
+				h1 {
+					font-size: $font-size-h1 * 3.0;
+
+					span.small-header {
+						position: relative;
+						display: block;
+						clear: both;
+						font-size: $font-size-h1;
+					}
+
+				}
+			}
+			@include media-breakpoint-only(xl) {
+				h1 {
+					font-size: $font-size-h1 * 3.5;
+
+					span.small-header {
+						position: relative;
+						display: block;
+						clear: both;
+						font-size: $font-size-h1;
+					}
+
+				}
+			}
+
+		}
+
+    }
+
+    div#post-content {
+	    position: relative;
+		min-height: 100vh;
+		width: 100vw;
+
+		padding: 3rem 0 4rem 0;
+
+		h1 {
+			@include text-shadow-shallow;
+			text-align: center;
+			text-transform: uppercase;
+
+			font-size: $font-size-h1 * 1.5;
+			font-weight: 800;
+			line-height: $line-height-base * 0.6;
+
+			&:after {
+				position: relative;
+				display: block;
+				clear: both;
+				content: "";
+				height: 0.4rem;
+				width: 30%;
+				left: 35%;
+				right: 35%;
+				background: $body-color;
+				margin: 2rem 0 2rem 0;
+				@include box-shadow-shallow;
+			}
+
+			a {
+				text-decoration: none !important;
+			}
+		}
+
+		blockquote {
+			margin: 1.5rem 0 4rem 0;
+			padding: 1rem;
+
+			background: darken($body-bg, 3%);
+
+			text-align: center;
+			font-style: italic;
+			font-size: $font-size-base * 1.25;
+			font-weight: 500;
+
+			p:last-of-type {
+				margin: 0;
+			}
+		}
+
+	}
+
+}
