@@ -6,7 +6,7 @@ description: "We drink a lot of coffee. This is what we think of the ones we try
 keywords: "coffee, espresso, latte, beans, taste test, cafe, drink"
 
 baseurl: "" # e.g. /blog
-url: "http://beansmeanscoffee.github.io" # e.g. http://example.com
+url: "http://coffee.github.io" # e.g. http://example.com
 author: John Peart and David Greaves
 logo: "/assets/images/beans-means-coffee.png"
 
