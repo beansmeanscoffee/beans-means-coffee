@@ -156,12 +156,12 @@ div#home {
 
 		@include media-breakpoint-only(sm) {
 			div#intro {
-				min-height: 50vh;
+				min-height: 75vh;
 			}
 		}
 		@include media-breakpoint-only(md) {
 			div#intro {
-				min-height: 50vh;
+				min-height: 75vh;
 				div#intro-content {
 					p:nth-child(1) {
 						float: left;
@@ -171,7 +171,7 @@ div#home {
 		}
 		@include media-breakpoint-only(lg) {
 			div#intro {
-				min-height: 50vh;
+				min-height: 75vh;
 				div#intro-content {
 					p:nth-child(1) {
 						float: left;
@@ -181,7 +181,7 @@ div#home {
 		}
 		@include media-breakpoint-only(xl) {
 			div#intro {
-				min-height: 50vh;
+				min-height: 75vh;
 				div#intro-content {
 					p:nth-child(1) {
 						float: left;
