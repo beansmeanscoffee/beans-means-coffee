@@ -46,7 +46,7 @@ div#home {
 				position: absolute; // was position: absolute;
 				display: block;
 				float: left;
-				top: 90vh; // was bottom: 15%;
+				top: 80vh; // was bottom: 15%;
 				left: 50%;
 				margin-left: -1.2rem;
 
@@ -66,20 +66,36 @@ div#home {
 				h1 {
 					font-size: $font-size-h1 * 2.0;
 				}
+
+				.arrow-down:before {
+					top: 85vh;
+				}
 			}
 			@include media-breakpoint-only(md) {
 				h1 {
 					font-size: $font-size-h1 * 2.5;
+				}
+
+				.arrow-down:before {
+					top: 85vh;
 				}
 			}
 			@include media-breakpoint-only(lg) {
 				h1 {
 					font-size: $font-size-h1 * 3.0;
 				}
+
+				.arrow-down:before {
+					top: 90vh;
+				}
 			}
 			@include media-breakpoint-only(xl) {
 				h1 {
 					font-size: $font-size-h1 * 3.5;
+				}
+
+				.arrow-down:before {
+					top: 90vh;
 				}
 			}
 
@@ -92,7 +108,87 @@ div#home {
 		min-height: 100vh;
 		width: 100vw;
 
-		padding: 3rem 0 4rem 0;
+		padding: 0 0 4rem 0;
+
+		div#intro {
+
+			min-height: 100vh;
+			width: 100vw;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			div#intro-content {
+
+				p:nth-child(1) {
+					float: left;
+					clear: both;
+				    position: relative;
+				    width: 100%;
+					color: $body-color;
+					font-size: $font-size-root * 3;
+					@include text-shadow-shallow;
+					text-transform: uppercase;
+					font-weight: 800;
+					line-height: 60px;
+					padding: 0rem;
+					margin: 0.15rem 0.5rem 0 0;
+				}
+
+				p:nth-child(2) {
+					float: left;
+					clear: both;
+				    position: relative;
+				    width: 100%;
+					color: $body-color;
+					font-size: $font-size-root * 1.5;
+					@include text-shadow-shallow;
+					text-transform: uppercase;
+					font-weight: 800;
+					line-height: 30px;
+					padding: 0rem;
+					margin: 0rem 0.5rem 1rem 0;
+				}
+
+			}
+		}
+
+		@include media-breakpoint-only(sm) {
+			div#intro {
+				min-height: 50vh;
+			}
+		}
+		@include media-breakpoint-only(md) {
+			div#intro {
+				min-height: 50vh;
+				div#intro-content {
+					p:nth-child(1) {
+						float: left;
+					}
+				}
+			}
+		}
+		@include media-breakpoint-only(lg) {
+			div#intro {
+				min-height: 50vh;
+				div#intro-content {
+					p:nth-child(1) {
+						float: left;
+					}
+				}
+			}
+		}
+		@include media-breakpoint-only(xl) {
+			div#intro {
+				min-height: 50vh;
+				div#intro-content {
+					p:nth-child(1) {
+						float: left;
+					}
+				}
+			}
+		}
 
 		h1 {
 			@include text-shadow-shallow;
