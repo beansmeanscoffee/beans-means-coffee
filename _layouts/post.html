@@ -12,11 +12,25 @@ layout: default
 				<span class="small-header">Beans means coffee</span>
 				{{ page.title }}
 			</h1>
-			<a class="arrow-down" href="#post-content"></a>
+			<a class="arrow-down" href="#post-stats"></a>
 
 		</div>
 
 	</div>
+
+	{% if page.purchases %}
+
+	<div id="post-stats">
+
+		<div class="container">
+
+			{% include stats/receipt.html %}
+
+		</div>
+
+	</div>
+
+	{% endif %}
 
 	<div id="post-content">
 
