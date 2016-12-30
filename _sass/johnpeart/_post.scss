@@ -102,6 +102,100 @@ div#post {
 
     }
 
+	div#post-stats {
+		margin: 0;
+
+		min-height: 50vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		div#receipt {
+
+			padding: 0;
+
+			color: $body-color-inverse;
+			font-family: monospace;
+
+			background: #eee;
+
+			&:before {
+			    content:"";
+			    display:block;
+			    position:relative;
+			    top:0;
+			    left:0;
+			    width:100%;
+			    height:20px;
+			    background: linear-gradient($body-bg 0%, transparent 0%), linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee linear-gradient(45deg, #eee 33.33%, $body-bg 33.33%) 0 0%;
+			    background: -webkit-linear-gradient($body-bg 0%, transparent 0%), -webkit-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -webkit-linear-gradient(45deg, #eee 33.33%, $body-bg 33.33%) 0 0%;
+			    background: -o-linear-gradient($body-bg 0%, transparent 0%), -o-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -o-linear-gradient(45deg, #eee 33.33%, $body-bg 33.33%) 0 0%;
+			    background: -moz-linear-gradient($body-bg 0%, transparent 0%), -moz-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -moz-linear-gradient(45deg, #eee 33.33%, $body-bg 33.33%) 0 0%;
+			    background-repeat: repeat-x;
+			    background-size: 0px 100%, 9px 27px, 9px 27px;
+			}
+
+			&:after {
+			    content:"";
+			    display:block;
+			    position:relative;
+			    top:0;
+			    left:0;
+			    width:100%;
+			    height:20px;
+			    background: linear-gradient(#eee 0%, transparent 0%), linear-gradient(135deg, $body-bg 33.33%, transparent 33.33%) 0 0%, $body-bg linear-gradient(45deg, $body-bg 33.33%, #eee 33.33%) 0 0%;
+			    background: -webkit-linear-gradient(#eee 0%, transparent 0%), -webkit-linear-gradient(135deg, $body-bg 33.33%, transparent 33.33%) 0 0%, $body-bg -webkit-linear-gradient(45deg, $body-bg 33.33%, #eee 33.33%) 0 0%;
+			    background: -o-linear-gradient(#eee 0%, transparent 0%), -o-linear-gradient(135deg, $body-bg 33.33%, transparent 33.33%) 0 0%, $body-bg -o-linear-gradient(45deg, $body-bg 33.33%, #eee 33.33%) 0 0%;
+			    background: -moz-linear-gradient(#eee 0%, transparent 0%), -moz-linear-gradient(135deg, $body-bg 33.33%, transparent 33.33%) 0 0%, $body-bg -moz-linear-gradient(45deg, $body-bg 33.33%, #eee 33.33%) 0 0%;
+			    background-repeat: repeat-x;
+			    background-size: 0px 100%, 9px 27px, 9px 27px;
+			}
+
+			#receipt-content {
+				padding: 2rem 1rem 1rem 1rem;
+
+				.purchase-location {
+					text-align: center;
+					font-weight: 600;
+					margin: 0;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+				}
+
+				.purchase-address {
+					text-align: center;
+				}
+
+				.purchase-date {
+					text-align: right;
+					font-style: oblique;
+				}
+
+				table {
+					width: 100%;
+
+					td.items {
+						text-align: left;
+					}
+					td.sub-total {
+						text-align: right;
+					}
+					td.divider {
+						text-align: right;
+					}
+					td.total-label, td.total {
+						text-align: right;
+						text-transform: uppercase;
+						font-weight: 600;
+					}
+				}
+			}
+
+		}
+	}
+
 	div#post-content {
 
 	    position: relative;

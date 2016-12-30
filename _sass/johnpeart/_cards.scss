@@ -3,7 +3,7 @@
 /* Standard sizes */
 $card-width: 15rem;
 $card-height: $card-width / (2/3);
-$card-margin: 0 1rem 0 1rem;
+$card-margin: 0 1rem 0 0;
 $card-padding: 0rem;
 
 $card-stack-width: 100vw;
@@ -392,6 +392,7 @@ div.card-stack {
 
 				height: $card-height;
 				width: $card-width;
+				padding: 0.5rem;
 
 				h2 {
 					color: $link-color;

@@ -1,0 +1,52 @@
+<div class="row flex-items-xs-center">
+	<div id="receipt" class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+
+		<div id="receipt-content">
+
+			<p class="purchase-location">{{ page.purchase-location }}</p>
+			<p class="purchase-address">{{ page.purchase-address }}</p>
+
+			<p class="purchase-date">{{ page.date | date_to_string }}</p>
+
+			<table>
+
+			{% for items in page.purchases %}
+
+			{% assign subtotal = items.price | times: items.volume | round: 2 | split: "." %}
+
+			{% assign subtotal-integral = subtotal[0] %}
+			{% assign subtotal-fractional = subtotal[1] | append: "00" | truncate: 2, "" %}
+
+			<tr>
+				<td class="items">{{ items.volume }} x {{ items.item }} <span class="hidden-xs-down">@ {{ items.price | prepend: '£ ' }}</span></td>
+				<td class="sub-total">{{ subtotal-integral | prepend: '£ ' | append: '.' | append: subtotal-fractional }}</td>
+			</tr>
+
+			{% endfor %}
+
+			<tr><td colspan="2" class="divider">------</td></tr>
+
+				{% assign totaliser = 0 %}
+				{% for items in page.purchases %}
+					{% assign items-cost = items.price | times: items.volume %}
+				    {% capture totaliser %}{{ totaliser | plus: items-cost }}{% endcapture %}
+
+				    {% assign total = totaliser | round: 2 | split: "." %}
+
+					{% assign total-integral = total[0] %}
+					{% assign total-fractional = total[1] | append: "00" | truncate: 2, "" %}
+
+				{% endfor %}
+
+			<tr>
+				<td class="total-label">Total</td>
+				<td class="total">{{ total-integral | prepend: '£ ' | append: '.' | append: total-fractional }}</td>
+			</tr>
+
+			</table>
+
+
+		</div>
+
+	</div>
+</div>
