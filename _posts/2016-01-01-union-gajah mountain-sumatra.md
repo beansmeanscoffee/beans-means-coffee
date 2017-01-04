@@ -4,7 +4,7 @@ date:   2016-01-01 # Date of post in format YYYY-MM-DD
 categories: beans # Either 'beans' or 'shops'
 layout: post # always post
 
-image: /coffee.jpg # /coffee.jpg is default
+image: /union-gajah-mountain-sumatra/beans.jpg # /coffee.jpg is default
 
 purchase-location: "Waitrose" # Shop name
 purchase-address: "The Brunswick, Bloomsbury, WC1N 1AF" # Shop address

@@ -4,7 +4,7 @@ date:   2016-01-01 # Date of post in format YYYY-MM-DD
 categories: shops # Either 'beans' or 'shops'
 layout: post # always post
 
-image: /coffee.jpg # /coffee.jpg is default
+image: /the-espresso-room/latte1.jpg # /coffee.jpg is default
 
 purchase-location: "The Espresso Room" # Shop name
 purchase-address: "23 Southampton Row, London, WC1B 5HA" # Shop address

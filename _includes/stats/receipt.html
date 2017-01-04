@@ -1,5 +1,5 @@
 <div class="row flex-items-xs-center">
-	<div id="receipt" class="col-xs-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+	<div id="receipt" class="col-xs-12 col-sm-10 col-md-6 col-lg-6 col-xl-5">
 
 		<div id="receipt-content">
 
@@ -18,7 +18,7 @@
 			{% assign subtotal-fractional = subtotal[1] | append: "00" | truncate: 2, "" %}
 
 			<tr>
-				<td class="items">{{ items.volume }} x {{ items.item }} <span class="hidden-xs-down">@ {{ items.price | prepend: '£ ' }}</span></td>
+				<td class="items">{{ items.volume }} x {{ items.item }}<span class="hidden-xs-down">{{ items.price | prepend: ' @ ' }}</span></td>
 				<td class="sub-total">{{ subtotal-integral | prepend: '£ ' | append: '.' | append: subtotal-fractional }}</td>
 			</tr>
 
