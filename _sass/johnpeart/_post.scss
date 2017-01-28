@@ -253,10 +253,26 @@ div#post {
 			}
 		}
 
+		h1, .h1 {
+			text-align: center;
+			margin: 5rem 0 2rem 0;
+			text-align: center;
+			text-transform: uppercase;
+			clear: both;
+
+			font-size: $font-size-h1;
+			font-weight: 800;
+			@include text-shadow-shallow;
+		}
+
 		h2, .h2 {
 			text-align: center;
 			margin: 5rem 0 2rem 0;
 			@include text-shadow-shallow;
+
+			text-transform: uppercase;
+			clear: both;
+			font-weight: 800;
 
 			&:before {
 				position: relative;
