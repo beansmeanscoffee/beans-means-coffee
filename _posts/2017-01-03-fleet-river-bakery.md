@@ -41,7 +41,11 @@ The entire feel of Fleet River's seated area was that of a school hall: run down
 
 David's latte was pleasantly bitter, with a light body and a sweet taste. It had a roasted, burnt, and almost smoky flavour. "It's not uninviting" was the best description he could come up with.
 
+![](../images/fleet-river-bakery/flatwhite1.jpg "Flat white")
+
 My flat white was similarly smoky, and presented in a cup that was reminiscent of the plates Wetherspoons. 
+
+![](../images/fleet-river-bakery/carrotcake2.jpg "Carrot cake")
 
 The carrot cake was the highlight of the visit. Topped with a classic smattering of walnuts, the cake was creamy, carroty, and moist enough to not leave you gasping for water.
 
