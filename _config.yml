@@ -27,7 +27,7 @@ google-analytics: "UA-27553664-5" # GA ID code
 
 # Plugins and build settings
 
-permalink: pretty
+permalink: /:title.html
 markdown: kramdown
 future: false
 sass:
