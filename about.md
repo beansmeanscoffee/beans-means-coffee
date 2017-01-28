@@ -11,4 +11,4 @@ So we've decided to start blogging about our bean-based experiences, and to shar
 
 **We don't get paid to do this.** All the coffees purchased for this blog have been bought with money from our own pockets. If, at some point, we begin to acquire coffee through other means, we'll make it clear on the posts we write.
 
-**Got a coffee you think we should try? Then get in touch. [Email](mailto:john.peart&#64;me.com) or [tweet](//twitter.com/johnpeart) us.**
+**Got a coffee you think we should try? Then get in touch. [Email](mailto:john.peart@me.com) or [tweet](//twitter.com/johnpeart) us.**
