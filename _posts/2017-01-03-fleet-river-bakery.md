@@ -2,7 +2,7 @@
 title:  "Fleet River Bakery" # Title goes here
 date:   2017-01-03 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: post #always post
+layout: shop #always post
 
 image: /fleet-river-bakery/latte.jpg # /coffee.jpg is default
 

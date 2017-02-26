@@ -233,26 +233,6 @@ div#post {
 
 		padding: 3rem 0 4rem 0;
 
-		p:first-child:first-letter {
-			float: left;
-			color: $body-color;
-			font-size: $font-size-root * 7;
-			@include text-shadow-shallow;
-			font-weight: 600;
-			line-height: 60px;
-			padding: 0.6rem 1rem 1rem 0;
-			margin: 0.45rem 0rem 0.5rem -0.1rem;
-		}
-
-
-		@include media-breakpoint-only(xs) {
-			> p:first-child:first-letter {
-				font-size: $font-size-root * 4;
-				padding: 1rem 1.5rem;
-				margin: 0.45rem 1rem 0.5rem 0;
-			}
-		}
-
 		h1, .h1 {
 			text-align: center;
 			margin: 5rem 0 2rem 0;
@@ -328,6 +308,40 @@ div#post {
 			@extend .table;
 			@extend .table-responsive;
 		}
+
+		div#beans-stats {
+
+			margin: 4rem 0;
+
+			div.flavour {
+
+				width: 100%;
+				min-height: 125px;
+
+				padding: 0;
+				margin: 1rem 0px 2rem 0px;
+
+				background: $body-color;
+				color: $body-bg;
+
+				word-break: break-word;
+				word-wrap: break-word;
+
+				p.flavour-text {
+					margin: 0;
+					padding: 1rem;
+
+					font-weight: 800;
+					text-transform: uppercase;
+					font-size: 1.5rem;
+				}
+
+				@include box-shadow-shallow;
+
+			}
+
+		}
+
 	}
 
 }

@@ -1,0 +1,50 @@
+
+
+<div id="beans-stats">
+
+		{% for lookup in site.data.coffeewheel %}
+
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+
+					<div class="flavour" style="color: #{{ lookup.firsttext }}; background: #{{ lookup.firstbg }};">
+
+						<p class="flavour-text">{{ lookup.first }}</p>
+
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+
+					<div class="flavour" style="color: #{{ lookup.secondtext }}; background: #{{ lookup.secondbg }};">
+
+						<p class="flavour-text">{{ lookup.second }}</p>
+
+					</div>
+
+				</div>
+
+				{% if lookup.third == null %}
+
+				{% else %}
+
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+
+					<div class="flavour" style="color: #{{ lookup.thirdtext }}; background: #{{ lookup.thirdbg }};">
+
+						<p class="flavour-text">{{ lookup.third }}</p>
+
+					</div>
+
+				</div>
+
+				{% endif %}
+
+			</div>
+
+		{% endfor %}
+
+</div>
+
