@@ -1,42 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-  {% include head.html %}
+<div id="post">
 
-  <body id="four-oh-four">
+	<div id="header">
 
-	<div id="four-oh-four" class="four-oh-four-container">
+		<div class="container">
 
-			<div class="overlay">404</div>
+			<h1>
+				<span class="small-header">404</span>
+				{{ page.title }}
+			</h1>
 
-			<div class="screen">
-
-				<div id="home" class="container lionel">
-
-					<div class="row">
-
-						<div class="col-xs-12 col-md-8">
-
-							<h1>Hello?</h1>
-
-							<p class="h2">Is it me you're looking for?</p>
-
-							<p>Looks like you're a little lost. Maybe try the <a href="{{ site.url}}">home page?</a></p>
-
-
-						</div>
-					</div>
-
-				</div>
-
-			</div>
+		</div>
 
 	</div>
 
-	{% include scripts.html %}
-
-	{% include footer.html %}
-
-  </body>
-
-</html>
+</div>

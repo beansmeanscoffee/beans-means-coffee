@@ -15,11 +15,7 @@
 	</title>
 
 	<!-- CSS -->
-	{% if page.layout != 'error' %}
 	<link rel="stylesheet" href="{{ '/styles/main.css' | prepend: site.baseurl | prepend: site.url }}">
-	{% elsif page.layout == 'error' %}
-	<link rel="stylesheet" href="{{ '/styles/404.css' | prepend: site.baseurl | prepend: site.url }}">
-	{% endif %}
 
 	<!-- Icons -->
 	<link rel="icon" href="{{ '/favicon.ico' | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}">
