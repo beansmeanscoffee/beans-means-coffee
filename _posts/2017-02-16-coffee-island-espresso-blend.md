@@ -1,6 +1,6 @@
 ---
 title:  "Coffee Island Speciality Blend" # Title goes here
-date:   2017-03-12 # Date of post in format YYYY-MM-DD 
+date:   2017-02-16 # Date of post in format YYYY-MM-DD 
 categories: beans # Either 'beans' or 'shops'
 layout: beans # Either 'beans' or 'shops'
 
