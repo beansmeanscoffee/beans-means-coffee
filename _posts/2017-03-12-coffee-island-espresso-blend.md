@@ -1,6 +1,6 @@
 ---
 title:  "Caravan 'Market Blend' espresso" # Title goes here
-date:   2016-01-01 # Date of post in format YYYY-MM-DD 
+date:   2017-03-12 # Date of post in format YYYY-MM-DD 
 categories: beans # Either 'beans' or 'shops'
 layout: beans # always post
 
