@@ -1,6 +1,6 @@
 ---
 title:  "Union 'Gajah Mountain'" # Title goes here
-date:   2017-12-15 # Date of post in format YYYY-MM-DD 
+date:   2016-12-15 # Date of post in format YYYY-MM-DD 
 categories: beans # Either 'beans' or 'shops'
 layout: beans # always post
 
