@@ -2,7 +2,7 @@
 title:  "Department of Coffee and Social Affairs" # Title goes here
 date:   2017-03-12 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shop #always either 'beans' or 'shops' 
+layout: shops #always either 'beans' or 'shops' 
 
 image: /department-of-coffee-and-social-affairs/sandwich-2.jpg # /coffee.jpg is default
 
@@ -53,11 +53,11 @@ Choosing coffee was easier, and slightly more pleasant, with a large clear menu 
 
 We got 2 flat whites, a chicken and pesto toasted sandwich and a goats cheese and beetroot toasted ciabatta. The sandwiches were, as usual, horrendously over-priced.
 
-![Flat white](/images/department-of-coffee-and-social-affairs/coffee.jpg "Flat white")
+![Flat white](/assets/images/department-of-coffee-and-social-affairs/coffee.jpg "Flat white")
 
 Despite the unsociable initial impression, the service did improve: our barista was chirpy and made some feeble attempts at jokes as he dropped off our coffee. Our sandwiches arrived with a small side salad.
 
-![Sandwich](/images/department-of-coffee-and-social-affairs/sandwich.jpg "Sandwich")
+![Sandwich](/assets/images/department-of-coffee-and-social-affairs/sandwich.jpg "Sandwich")
 
 The ambience was generally pleasant, and the music was - unusually compared to recent experiences - quite good. It offset the otherwise frosty reception just enough.
 

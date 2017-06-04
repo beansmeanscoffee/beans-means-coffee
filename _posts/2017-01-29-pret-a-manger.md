@@ -2,7 +2,7 @@
 title:  "Pret A Manger" # Title goes here
 date:   2017-01-29 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shop #always post
+layout: shops #always post
 
 image: /pret-a-manger/flatwhite.jpeg # /coffee.jpg is default
 
@@ -49,7 +49,7 @@ We chose some high stools facing out on to the street so that we could, as usual
 
 Both David and I agree that this was very much a bog standard affair. Both David's standard latte and my soya flat white had a sweet taste with hints of vanilla. This may have been exacerbated by a general sweetness of the milk, but we couldn't quite tell. The body of the coffee was light and silky. Overall, nothing stellar, but nothing to complain about either.
 
-![Toastie](/images/pret-a-manger/toastie.jpeg "Toastie")
+![Toastie](/assets/images/pret-a-manger/toastie.jpeg "Toastie")
 
 The food was equally a standard affair. "It's tasty," was about as much of a description as David could muster on this occasion: I think he was just grateful to be eating anything after too long a gap between meals. He gave his brie and avocado toastie a 4 out of 5. My ham, cheese and mustard toastie was a little heavy on the mustard for me, but not enough to ruin what was otherwise a pleasant sandwich. It filled a hole, at least.
 

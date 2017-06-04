@@ -2,7 +2,7 @@
 title:  "Coffee Island" # Title goes here
 date:   2017-02-12 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shop # always post
+layout: shops # always post
 
 image: /coffee-island/coffee.jpg # /coffee.jpg is default
 
@@ -43,7 +43,7 @@ Basically all you need to know is there are oodles of theatrics in both the venu
 
 We each had a slice of chocolate cake. I had a flat white, David had a latte. 
 
-![Cake](/images/coffee-island/cake.jpg "Cake")
+![Cake](/assets/images/coffee-island/cake.jpg "Cake")
 
 The chocolate cake immediately lost points from me for presentation. It was served on a paper napkin (and a plate, obviously). For as long as I live, I will never understand why shops serve cake on a napkin. It's ridiculous: all it does is mean I loose half my icing or topping **because it sticks to the blooming napkin**! Coffee shops, take note, you're on my list if you do this.
 

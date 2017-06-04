@@ -2,7 +2,7 @@
 title:  "Fleet River Bakery" # Title goes here
 date:   2017-01-03 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shop #always post
+layout: shops #always post
 
 image: /fleet-river-bakery/latte.jpg # /coffee.jpg is default
 
@@ -41,11 +41,11 @@ The entire feel of Fleet River's seated area was that of a school hall: run down
 
 David's latte was pleasantly bitter, with a light body and a sweet taste. It had a roasted, burnt, and almost smoky flavour. "It's not uninviting" was the best description he could come up with.
 
-![Flat white](/images/fleet-river-bakery/flatwhite1.jpg "Flat white")
+![Flat white](/assets/images/fleet-river-bakery/flatwhite1.jpg "Flat white")
 
 My flat white was similarly smoky, and presented in a cup that was reminiscent of the tableware at Wetherspoons. 
 
-![Carrot cake](/images/fleet-river-bakery/carrotcake2.jpg "Carrot cake")
+![Carrot cake](/assets/images/fleet-river-bakery/carrotcake2.jpg "Carrot cake")
 
 The carrot cake was the highlight of the visit. Topped with a classic smattering of walnuts, the cake was creamy, carroty, and moist enough to not leave you gasping for water.
 

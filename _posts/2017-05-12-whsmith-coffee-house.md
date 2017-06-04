@@ -2,7 +2,7 @@
 title:  "The Coffee House" # Title goes here
 date:   2017-05-12 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shop # always either 'beans' or 'shops' 
+layout: shops # always either 'beans' or 'shops' 
 
 image: /coffee.jpg # /coffee.jpg is default
 
@@ -54,6 +54,6 @@ Bad does not cover it, but on the plus side, for an airport, even the large cup 
 
 It was fortunate that our low-fare friendly airline, Jet2, did not permit us to take these half-finished coffees on to the flight (*hot beverage fascists, that they are*) for *”safety reasons”*. It saved us from having to finish what was deeply, deeply unpleasant coffee.
 
-Don't be fooled by the loving embrace of WHSmith. Avoid this coffee like the plague[^*].
+Don't be fooled by the loving embrace of WHSmith. Avoid this coffee like the plague[^1].
 
-[^*]: the raspberry and white chocolate muffin I had was nice though. Buy that.
+[^1]: the raspberry and white chocolate muffin I had was nice though. Buy that.

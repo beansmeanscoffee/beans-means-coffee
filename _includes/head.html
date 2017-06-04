@@ -15,7 +15,7 @@
 	</title>
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="{{ '/styles/main.css' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="stylesheet" href="{{ '/styles/main.css' | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}">
 
 	<!-- Icons -->
 	<link rel="icon" href="{{ '/favicon.ico' | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}">
@@ -42,7 +42,7 @@
 	<meta name="twitter:creator" content="{{ site.twitter-username }}">
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
-	<meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+	<meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
 	<!-- Google -->
 	<meta name="google-site-verification" content="{{ site.google-site-verification }}" />
