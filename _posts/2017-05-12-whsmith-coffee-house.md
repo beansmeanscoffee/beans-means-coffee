@@ -46,7 +46,7 @@ That's about all I can say about it. I was tired, give me a break.
 
 Our order consisted of 2 caffe lattes. Well, I say *caffe* lattes. There was milk in it, so it at least met half that description.
 
-The *caffe* part was distinctly ashen. Like I imagine the stone of Pompei would taste like if you ground it into a powder and decided to put it through a coffee machine. 
+The *caffe* part was distinctly ashen. Like I imagine the stone of Pompei would taste, if you ground it into a powder and decided to put it through a coffee machine. 
 
 Bad does not cover it, but on the plus side, for an airport, even the large cup sizes we boldly (stupidly) opted for were reasonably priced at *just* £2.75. Who knew you could buy so much unhappiness for so little?
 
