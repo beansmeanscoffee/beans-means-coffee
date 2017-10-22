@@ -46,11 +46,11 @@ Upon joining what we thought was the queue, no one, neither the baristas nor the
 
 Order complete, we then waited. And waited. And waited.
 
-More customers were coming through the door, adding to the total orders, but the outputs were being produced at an ever slower rate. I was directed to one side of the counter for coffee, and the other side to collect the food. I had neither in my possession, and it was not clear at any point which would arrive first. I was repeatedly told to stand at the opposite end of the counter despite having needs to be at both ends at once. *Strike 2*
+More customers were coming through the door, adding to the total orders, but the outputs were being produced at an ever slower rate. I was directed to one side of the counter for coffee, and the other side to collect the food. I had neither in my possession, and it was not clear at any point which would arrive first. I was repeatedly told to stand at the opposite end of the counter despite having needs to be at both ends at once. *Strike 2*.
 
 The sandwiches eventually arrived, but then the coffees did not. 
 
-There was at least a 5 minute wait from here in. The barista forgot my order, twice, and could not fathom that the person behind me had ordered 2 *tall* lattes, whilst I ordered 2 *grande* lattes. It even caused an argument *between* the baristas. Meanwhile, my sandwiches, now toasted, we’re going cold. *Strike 3*.
+There was at least a 5 minute wait from there in. The barista forgot my order, twice, and could not fathom that the person behind me had ordered 2 *tall* lattes, whilst I ordered 2 *grande* lattes. It even caused an argument *between* the baristas. Meanwhile, my sandwiches, now toasted, we’re going cold. *Strike 3*.
 
 I say this with no exaggeration: it was the worst experience I have ever had in a coffee shop. Eventually, we got all the components of the order together, and found a table. Unsurprisingly, given the shit-show customer service, there was plenty of space.
 

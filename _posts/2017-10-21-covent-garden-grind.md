@@ -25,9 +25,9 @@ In life, one is always in search of the perfect pun. Whilst the name of this est
 
 ## Venue
 
-Grind is located just round the corner from the Covent Garden plaza. That’s just close enough to a major tourist hot spot to be scary for your average London dweller, and just far enough most tourists would never find it. That means this spacious coffee shop is relatively unspoiled by the masses.
+Grind is located just round the corner from the Covent Garden plaza. That’s just close enough to a major tourist hot spot to be scary for your average London dweller, and just far enough away from it that most tourists would never find it. That means this spacious coffee shop is relatively unspoiled by the masses.
 
-Entering the venue, you’re greeted with the usual array of tables and chairs, and an unusually spartan and unfathomably long serving counter off to one side. Most of the decor isn’t much to write home about: it’s an on fleek affair of warehouse-ness. Adorning the wall is a glowing neon sign: 
+Entering the venue, you’re greeted with the usual array of tables and chairs, and an unusually spartan and unfathomably long serving counter off to one side. Most of the decor isn’t much to write home about: it’s an *on fleek* affair of warehouse-ness. Adorning the wall is a glowing neon sign: 
 
 > “We can be heroes just for one day”
 
@@ -41,15 +41,15 @@ Anyway, what you need to know is that it’s pleasant. You wouldn’t lay roost 
 
 Ordering was pretty straightforward, because literally no one else was in the shop. We approached the inexplicably long, peculiarly spartan serving area where 2 staff were eager to receive us; perhaps bored from a lack of weekend trade.
 
-We took our seats and some time later our coffee arrived at our table. Table service was an unnecessary but welcome touch.
+We took our seats and sometime later our coffee arrived at our table. Table service was an unnecessary but welcome touch.
 
 I know you’re expecting snark about this process, but there is none to give. That’s it. It was fine.
 
-We ordered two flat whites, one of which technically didn’t cost us anything, because we we bought it alongside a tub of beans. Individually, the flat whites would have been £3.00 each, but the order came to £14.00 in total.
+We ordered two flat whites, one of which technically didn’t cost us anything, because we bought it alongside a tub of beans. Individually, the flat whites would have been £3.00 each, but the order came to £14.00 in total.
 
 ## The order
 
-The flat whites were presented in small red cups which were absent appropriately sized handles. I personally dislike this trend towards coffee mugs minus handles; handles are useful attachment when you’re dealing with hot fluids, and yet hipsters do not seem to understand this.
+The flat whites were presented in small red cups which were absent appropriately-sized handles. I personally dislike this trend towards coffee mugs minus decent handles; handles are useful attachments when you’re dealing with hot fluids, and yet hipsters do not seem to understand this.
 
 Nevertheless, the coffee was good: we decided that this bean blend was fruity and sweet, with hints of either strawberry or raspberry. It was pleasant, and not overbearing.
 
