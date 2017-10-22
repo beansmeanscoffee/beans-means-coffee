@@ -18,7 +18,7 @@ purchases:
 
 I'm a seasoned vet when it comes to travel refreshments. I've had more disappointing *First Great Western Travelling “Chef”* bacon sandwiches than I care to count, and more over-priced station coffees than anyone should have to endure in a lifetime.
 
-Captive market though, ain't it? It's a basic flaw of the human condition that we constantly crave nourishment of stem description, and a strength (some might say abuse) of market economics that I can only buy coffee from very few vendors in a terminus.
+Captive market though, ain't it? It's a basic flaw of the human condition that we constantly crave nourishment of some description, and a strength (some might say abuse) of market economics that I can only buy coffee from very few vendors in a terminus.
 
 And so we come to The Coffee House. Coffee House is apparently WHSmith's attempt at breaking into the retail coffee market. 
 
