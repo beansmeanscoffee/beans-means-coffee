@@ -2,7 +2,7 @@
 title:  "Department of Coffee and Social Affairs" # Title goes here
 date:   2017-03-12 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shops #always either 'beans' or 'shops' 
+layout: post
 
 image: /department-of-coffee-and-social-affairs/sandwich-2.jpg # /coffee.jpg is default
 

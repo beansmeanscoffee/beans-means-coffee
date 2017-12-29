@@ -1,0 +1,381 @@
+// Home page styles
+
+body#page,
+body#loop,
+body#about {
+		
+	header {
+		
+		display:		grid;
+		position: 		relative;
+		
+		min-height: 	50vh;
+		
+		@include coffee-bg;
+		
+		box-sizing: 	border-box;
+		padding-bottom: 10vh; 		
+		margin-bottom: 50px;
+		
+	}
+	
+	div#content {
+
+		justify-self: 		flex-start;
+		align-self: 		flex-start;
+		
+		@include md-up {
+			margin-bottom: 		10vh;
+		}
+		
+		width: 				100%;
+		
+		section {
+			
+			@supports (display: grid) {
+				display: grid;
+
+				grid-template-columns: 		auto;
+				grid-template-rows: 		auto auto;
+				
+				@include md-up {
+					grid-template-columns: 		175px auto;
+					grid-template-rows: 		auto;
+				}
+			}
+			
+			@supports not (display: grid) {
+			
+				float: left;
+				clear: both;
+				
+				width: 100%;
+				
+			}
+			
+			h2.loop-header {
+				
+				@supports (display: grid) {
+					
+				}
+				
+				
+				@supports not (display: grid) {
+				
+					float: left;
+					clear: both;
+										
+				}
+				
+				width: 				100%;
+				max-width: 			175px;
+				height: 			100%;
+				
+				line-height: 		1.0;
+				font-weight: 		900;
+				font-size: 				36px;
+				@include sm {
+					font-size: 			38px;	
+				}
+				@include md {
+					font-size: 			40px;	
+				}
+				@include lg {
+					font-size: 			42px;	
+				}
+				@include xl {
+					font-size: 			44px;	
+				}
+				
+				margin-top: 			0;
+				margin-bottom: 			20px;
+				
+			}
+	
+			
+			ul#loop {
+				
+				@supports (display: grid) {
+						
+				}
+
+				@supports not (display: grid) {
+				
+					float: left;
+					clear: right;
+										
+				}
+				
+				width: 				100%;
+				max-width: 			600px;
+				
+				margin: 			0;
+				margin-bottom: 		50px;
+				padding: 			0;
+				
+				list-style-type: 	none;
+				
+				a {
+					display: block;
+					text-decoration: none;
+					outline: none;
+					
+					article {
+						position: relative;
+						
+						transition: all 0.5s;
+					}
+					
+					&:hover,
+					&:focus {
+						article {
+							
+							left: 15px;
+							
+							transition: all 0.5s;
+
+							&:after {
+								position: 	absolute;
+								display: 	block;
+								content: 	"";
+								height: 	90%;
+								width: 		0.3rem;
+								top: 		5%;
+								bottom: 	5%;
+								left: 		-15px ;
+								background: $body-color;
+								@include 	box-shadow-shallow;
+							}
+						}
+					}
+				}
+				
+				li {
+					
+					margin: 0;
+					padding: 0;
+					
+					p {
+						margin-top:		5px;
+						margin-bottom: 30px;
+						
+						font-size: 				$font-size-base - 2px;
+						@include sm {
+							font-size: 			$font-size-base - 2px;	
+						}
+						@include md {
+							font-size: 			$font-size-base - 2px;	
+						}
+						@include lg {
+							font-size: 			$font-size-base;	
+						}
+						@include xl {
+							font-size: 			$font-size-base;	
+						}
+					}
+					
+					h3 {
+						
+						margin-top: 	0;
+						margin-bottom: 	0;
+						
+						font-size: 				$font-size-base + 5px;
+								
+						@include sm {
+							font-size: 			23px;	
+						}
+						@include md {
+							font-size: 			25px;	
+						}
+						@include lg {
+							font-size: 			27px;	
+						}
+						@include xl {
+							font-size: 			30px;	
+						}
+						
+						
+					}
+					
+				}
+				
+			}
+			
+		}
+
+	}
+	
+	h1 {
+				
+		font-weight: 			900;
+		text-align: 			left;
+		
+		line-height: 			1.25;
+
+		font-size: 				65px;
+		margin-bottom: 			50px;
+
+		@include sm {
+			font-size: 			80px;	
+		}
+		@include md {
+			font-size: 			95px;	
+		}
+		@include lg {
+			font-size: 			110px;	
+		}
+		@include xl {
+			font-size: 			125px;	
+		}
+	
+	}
+	
+	p {
+		
+		line-height: 1.2;
+				
+		font-size: 				21px;
+		@include sm {
+			font-size: 			23px;	
+		}
+		@include md {
+			font-size: 			25px;	
+		}
+		@include lg {
+			font-size: 			27px;	
+		}
+		@include xl {
+			font-size: 			30px;	
+		}
+		
+		margin-bottom: 			20px;
+	
+		
+	}
+	
+}
+
+body#about {
+	div#content section {
+			
+			@supports (display: grid) {
+				display: grid;
+
+				grid-template-columns: 		auto;
+				grid-template-rows: 		auto auto;
+				
+				@include md-up {
+					grid-template-columns: 		300px auto;
+					grid-template-rows: 		auto;
+				}
+			}
+			
+			@supports not (display: grid) {
+			
+				float: left;
+				clear: both;
+				
+				width: 100%;
+				
+			}
+			
+			h2.loop-header {
+				
+				@supports (display: grid) {
+					
+				}
+				
+				
+				@supports not (display: grid) {
+				
+					float: left;
+					clear: both;
+										
+				}
+				
+				width: 				100%;
+				max-width: 			300px;
+				height: 			100%;
+				
+				line-height: 		1.0;
+				font-weight: 		900;
+				font-size: 				36px;
+				@include sm {
+					font-size: 			38px;	
+				}
+				@include md {
+					font-size: 			40px;	
+				}
+				@include lg {
+					font-size: 			42px;	
+				}
+				@include xl {
+					font-size: 			44px;	
+				}
+				
+				margin-top: 			0;
+				margin-bottom: 			20px;
+				
+			}
+			
+		}
+
+}
+
+body#page {
+	div#vocab {
+		
+		div.row {
+			display: grid;
+			
+			grid-template-columns: 	1fr 1fr 1fr;
+			grid-column-gap: 		10px;
+			grid-template-rows: 	auto;
+			grid-row-gap: 			20px;
+			
+			grid-template-areas: 	"one two three";
+			
+			div.flavour {
+				
+				&:first-of-type {
+					grid-area:		one;
+				}
+				
+				&:nth-of-type(2) {
+					grid-area:		two;
+				}				
+				
+				&:nth-of-type(3) {
+					grid-area:		three;
+				}
+				
+				width: 100%;
+				min-height: 125px;
+
+				padding: 0;
+				margin: 0.5rem 0px;
+
+				background: $body-color;
+				color: $body-background;
+
+				word-break: break-word;
+				word-wrap: break-word;
+
+				p.flavour-text {
+					margin: 0;
+					padding: 1rem;
+
+					font-weight: 800;
+					text-transform: uppercase;
+					font-size: 1.5rem;
+				}
+
+				@include box-shadow-shallow;
+
+			}
+
+			
+		}
+		
+	}
+}

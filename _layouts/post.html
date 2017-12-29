@@ -2,62 +2,77 @@
 layout: default
 ---
 
-<div id="post">
+<main>
+			
+	<div id="content">
+		
+		<div id="post-content">
+			
+			<header id="site-header"
+					style="	background-image: url({{ page.image | prepend: site.image-path | prepend: site.baseurl | prepend: site.url }});
+												background-image: -webkit-image-set(url({{ page.image | prepend: site.image-path | prepend: site.baseurl | prepend: site.url }}) 1x,
+									url({{ page.image | prepend: site.image-2x-path | prepend: site.baseurl | prepend: site.url }}) 2x);
+												background-image: -moz-image-set(url({{ page.image | prepend: site.image-path | prepend: site.baseurl | prepend: site.url }}) 1x,
+									url({{ page.image | prepend: site.image-2x-path | prepend: site.baseurl | prepend: site.url }}) 2x);
+												background-image: -o-image-set(url({{ page.image | prepend: site.image-path | prepend: site.baseurl | prepend: site.url }}) 1x,
+									url({{ page.image | prepend: site.image-2x-path | prepend: site.baseurl | prepend: site.url }}) 2x);
+												background-image: -ms-image-set(url({{ page.image | prepend: site.image-path | prepend: site.baseurl | prepend: site.url }}) 1x,
+									url({{ page.image | prepend: site.image-2x-path | prepend: site.baseurl | prepend: site.url }}) 2x);">
+										
+				<div class="post-header container">
+		
+					<nav>
+						<a href="{{ site.url }}">Beans Means Coffee</a>
+					</nav>
+					
+					<h1 id="post-title">{{ page.title }}</h1>
+				
+				</div>
+				
+			</header>
+			
+			<div class="container">
+				
+				{% if page.purchases %}
 
-	<div id="header" style="	background-image: url({{ page.image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }});
-								background-image: -webkit-image-set(url({{ page.image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 1x,
-									url({{ page.image | prepend: site.image-2x-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 2x);
-								background-image: -moz-image-set(url({{ page.image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 1x,
-									url({{ page.image | prepend: site.image-2x-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 2x);
-								background-image: -o-image-set(url({{ page.image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 1x,
-									url({{ page.image | prepend: site.image-2x-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 2x);
-								background-image: -ms-image-set(url({{ page.image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 1x,
-									url({{ page.image | prepend: site.image-2x-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}) 2x);">
+				<div id="post-stats">
+						
+					{% include stats/receipt.html %}
+						
+				</div>
+			
+				{% endif %}
+				
+				<div class="post-body">
+				
+				{{ content }}
+			
+				</div>
+				
+				{% if page.wheel %}
 
-		<div class="container">
+				<div id="beans-stats">
 
-			<h1>
-				<span class="small-header">Beans means coffee</span>
-				{{ page.title }}
-			</h1>
-			<a class="arrow-down" href="#post-stats"><span class="sr-only">Skip to content</span></a>
+					<h2 id="flavours">Flavours</h2>
 
-		</div>
+					{% include stats/taste-wheel.html %}
 
-	</div>
-
-	{% if page.purchases %}
-
-	<div id="post-stats">
-
-		<div class="container">
-
-			{% include stats/receipt.html %}
-
-		</div>
-
-	</div>
-
-	{% endif %}
-
-	<div id="post-content">
-
-		<div class="container">
-
-			<div class="row flex-items-xs-center">
-
-				<div class="col-xs-12 col-sm-10 col-md-8">
-
-					<h1>{{ page.title }}</h1>
-
-					{{ content }}
+					<p id="explain">We've described the flavours of this coffee using the <a href="/vocabulary/">vocabulary</a> developed by <a href="//worldcoffeeresearch.org/work/sensory-lexicon/">World Coffee Research</a>.</p>
 
 				</div>
-
+				
+				{% endif %}
+				
 			</div>
-
+			
 		</div>
-
+							
 	</div>
+	
+	<footer id="site-footer" class="container">
+		
+		<p>John Peart and David Greaves</p>
+		
+	</footer>
 
-</div>
+</main>

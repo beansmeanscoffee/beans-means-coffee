@@ -1,5 +1,7 @@
 # Site settings
 
+# host: 192.168.1.66
+
 title: Beans means coffee
 
 description: "We drink a lot of coffee. This is what we think of the ones we try."
@@ -10,33 +12,49 @@ url: "http://coffee.johnpe.art" # e.g. http://example.com
 author: John Peart and David Greaves
 logo: "/site/beans-means-coffee.png"
 
-asset-path: "/assets"
-image-path: "/images"
-image-2x-path: "/images/@2x"
-post-images-path: "/featured"
-css-path: "/styles"
-js-path: "/scripts"
+# Images and assets
+image-path: "/assets/images"
+css-path: "/assets/styles"
+js-path: "/assets/scripts"
+
+image-2x-path: "/assets/images/@2x/"
+post-images-path: "/assets/images/"
+
+logo-png: "/assets/images/site/logo.png"
+logo-svg: "/assets/images/site/logo.svg"
+
+social-media-image: "/assets/images/site/social-media.png"
+
+touch: "/assets/images/site/touch.png"
+pinned: "/assets/images/site/pinned.svg"
+pinned-colour: "#ff2a68"
+logo-favicon-small: "/assets/images/site/favicon-16x16.png"
+logo-favicon-medium: "/assets/images/site/favicon-32x32.png"
+logo-favicon-large: "/assets/images/site/favicon-96x96.png"
 
 # Social settings
 facebook-app-id: "1053585037989505" # For Facebook OpenGraph integration
 facebook-profile-id: "100003820028435" # For Facebook OpenGraph integration
-facebook-slug: "john.robert.peart" # Automatically pre-pends http://facebook.com/
-twitter-username: "johnpeart" # Twitter handle i.e. joebloggs
-linkedin-username:  "jrpeart"
-flickr-username:  "johnpeart"
-instagram-username:  "johnpeart"
-github-username:  "johnpeart"
-google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk" # GSV code; proves domain ownership
+facebook-handle: "john.robert.peart" # Automatically pre-pends http://facebook.com/
 
-logo: "/site/logo.png"
-social-media: "/site/social-media.png"
-touch: "/site/touch.png"
-pinned: "/site/pinned.svg"
-pinned-colour: "#1d1d1d"
+twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
+twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
 
-#Analytics
-disable-analytics: false # Switch to "false" to start GA logging
-google-analytics: "UA-27553664-5" # GA ID code
+linkedin-url:  "https://www.linkedin.com/in/jrpeart"
+linkedin-handle:  "jrpeart"
+
+flickr-url:  "https://www.flickr.com/photos/johnpeart"
+flickr-handle:  "johnpeart"
+
+instagram-url:  "https://www.instagram.com/johnpeart"
+instagram-handle:  "johnpeart"
+
+github-url:  "https://github.com/johnpeart"
+github-handle:  "johnpeart"
+
+# Google settings
+google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
+google-analytics: "UA-27553664-1" # GA ID code
 
 # Plugins and build settings
 
@@ -47,7 +65,8 @@ sass:
     sass_dir: _sass
     sourcemap: true
 
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-redirect-from
+- jekyll-paginate

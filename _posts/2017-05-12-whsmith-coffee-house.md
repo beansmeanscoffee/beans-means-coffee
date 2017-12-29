@@ -2,7 +2,7 @@
 title:  "The Coffee House" # Title goes here
 date:   2017-05-12 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shops # always either 'beans' or 'shops' 
+layout: post
 
 image: /coffee.jpg # /coffee.jpg is default
 

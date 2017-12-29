@@ -1,50 +1,38 @@
 
 
-<div id="beans-stats">
+<div id="vocab">
 
-		{% for lookup in site.data.coffeewheel %}
+	{% for lookup in site.data.coffeewheel %}
 
-			<div class="row">
+		<div class="row">
 
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<div class="flavour" style="color: #{{ lookup.firsttext }}; background: #{{ lookup.firstbg }};">
 
-					<div class="flavour" style="color: #{{ lookup.firsttext }}; background: #{{ lookup.firstbg }};">
-
-						<p class="flavour-text">{{ lookup.first }}</p>
-
-					</div>
+					<p class="flavour-text">{{ lookup.first }}</p>
 
 				</div>
 
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<div class="flavour" style="color: #{{ lookup.secondtext }}; background: #{{ lookup.secondbg }};">
 
-					<div class="flavour" style="color: #{{ lookup.secondtext }}; background: #{{ lookup.secondbg }};">
-
-						<p class="flavour-text">{{ lookup.second }}</p>
-
-					</div>
+					<p class="flavour-text">{{ lookup.second }}</p>
 
 				</div>
 
-				{% if lookup.third == null %}
+			{% if lookup.third == null %}
 
-				{% else %}
+			{% else %}
 
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<div class="flavour" style="color: #{{ lookup.thirdtext }}; background: #{{ lookup.thirdbg }};">
 
-					<div class="flavour" style="color: #{{ lookup.thirdtext }}; background: #{{ lookup.thirdbg }};">
-
-						<p class="flavour-text">{{ lookup.third }}</p>
-
-					</div>
+					<p class="flavour-text">{{ lookup.third }}</p>
 
 				</div>
 
-				{% endif %}
+			{% endif %}
 
-			</div>
+		</div>
 
-		{% endfor %}
+	{% endfor %}
 
 </div>
 

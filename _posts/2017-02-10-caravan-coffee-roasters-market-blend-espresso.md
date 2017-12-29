@@ -2,7 +2,7 @@
 title:  "Caravan 'Market Blend' espresso" # Title goes here
 date:   2017-02-10 # Date of post in format YYYY-MM-DD 
 categories: beans # Either 'beans' or 'shops'
-layout: beans # always post
+layout: post
 
 image: /caravan-coffee-roasters-market-blend-espresso/beans.jpg # /coffee.jpg is default
 

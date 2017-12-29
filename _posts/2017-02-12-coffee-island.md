@@ -2,7 +2,7 @@
 title:  "Coffee Island" # Title goes here
 date:   2017-02-12 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shops # always post
+layout: post
 
 image: /coffee-island/coffee.jpg # /coffee.jpg is default
 

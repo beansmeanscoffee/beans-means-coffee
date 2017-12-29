@@ -2,7 +2,7 @@
 title:  "The Park Theatre Cafe" # Title goes here
 date:   2017-05-20 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shops # always either 'beans' or 'shop' 
+layout: post
 
 image: /park-theatre/coffee.jpg # /coffee.jpg is default
 

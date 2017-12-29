@@ -2,7 +2,7 @@
 title:  "Soho Coffee Co." # Title goes here
 date:   2017-10-21 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shops # always either 'beans' or 'shop' 
+layout: post
 
 image: /soho-coffee-co/order.jpeg # /coffee.jpg is default
 

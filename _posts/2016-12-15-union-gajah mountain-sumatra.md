@@ -2,7 +2,7 @@
 title:  "Union 'Gajah Mountain'" # Title goes here
 date:   2016-12-15 # Date of post in format YYYY-MM-DD 
 categories: beans # Either 'beans' or 'shops'
-layout: beans # always post
+layout: post
 
 image: /union-gajah-mountain-sumatra/beans.jpg # /coffee.jpg is default
 

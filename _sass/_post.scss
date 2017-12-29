@@ -1,0 +1,291 @@
+// Posts page styles
+
+body#post {
+	
+	div#content {
+		
+		display: block;
+		position: relative;
+				
+		@include md-up {
+			padding-bottom: 		10vh;
+		}
+		
+		width: 				100%;
+		
+		header {
+			
+			display:		grid;
+			position: 		relative;
+			
+			min-height: 	100vh;
+			
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+		}
+		
+		h1#post-title {
+			
+			width: 					100%;
+			max-width: 				1100px;
+				
+			font-weight: 			900;
+			text-align: 			left;
+			
+			line-height: 			1.1;
+	
+			font-size: 				40px;
+	
+			@include sm {
+				font-size: 			60px;	
+			}
+			@include md {
+				font-size: 			70px;	
+			}
+			@include lg {
+				font-size: 			80px;	
+			}
+			@include xl {
+				font-size: 			90px;	
+			}
+			
+			margin-bottom: 			50px;
+			@include md-up {
+				margin-bottom: 			100px;
+			}
+		
+		}
+		
+		div#post-stats {
+			margin: 0;
+	
+			min-height: 50vh;
+	
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+	
+			div#receipt {
+				
+				min-width: 100%;
+				
+				@include md-up {
+					min-width: 40%;
+				}
+	
+				padding: 0;
+	
+				color: $black;
+				font-family: monospace;
+	
+				background: #eee;
+	
+				&:before {
+				    content:"";
+				    display:block;
+				    position:relative;
+				    top:0;
+				    left:0;
+				    width:100%;
+				    height:20px;
+				    background: linear-gradient($body-background 0%, transparent 0%), linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee linear-gradient(45deg, #eee 33.33%, $body-background 33.33%) 0 0%;
+				    background: -webkit-linear-gradient($body-background 0%, transparent 0%), -webkit-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -webkit-linear-gradient(45deg, #eee 33.33%, $body-background 33.33%) 0 0%;
+				    background: -o-linear-gradient($body-background 0%, transparent 0%), -o-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -o-linear-gradient(45deg, #eee 33.33%, $body-background 33.33%) 0 0%;
+				    background: -moz-linear-gradient($body-background 0%, transparent 0%), -moz-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -moz-linear-gradient(45deg, #eee 33.33%, $body-background 33.33%) 0 0%;
+				    background-repeat: repeat-x;
+				    background-size: 0px 100%, 9px 27px, 9px 27px;
+				}
+	
+				&:after {
+				    content:"";
+				    display:block;
+				    position:relative;
+				    top:0;
+				    left:0;
+				    width:100%;
+				    height:20px;
+				    background: linear-gradient(#eee 0%, transparent 0%), linear-gradient(135deg, $body-background 33.33%, transparent 33.33%) 0 0%, $body-background linear-gradient(45deg, $body-background 33.33%, #eee 33.33%) 0 0%;
+				    background: -webkit-linear-gradient(#eee 0%, transparent 0%), -webkit-linear-gradient(135deg, $body-background 33.33%, transparent 33.33%) 0 0%, $body-background -webkit-linear-gradient(45deg, $body-background 33.33%, #eee 33.33%) 0 0%;
+				    background: -o-linear-gradient(#eee 0%, transparent 0%), -o-linear-gradient(135deg, $body-background 33.33%, transparent 33.33%) 0 0%, $body-background -o-linear-gradient(45deg, $body-background 33.33%, #eee 33.33%) 0 0%;
+				    background: -moz-linear-gradient(#eee 0%, transparent 0%), -moz-linear-gradient(135deg, $body-background 33.33%, transparent 33.33%) 0 0%, $body-background -moz-linear-gradient(45deg, $body-background 33.33%, #eee 33.33%) 0 0%;
+				    background-repeat: repeat-x;
+				    background-size: 0px 100%, 9px 27px, 9px 27px;
+				}
+	
+				#receipt-content {
+					padding: 2rem 1rem 1rem 1rem;
+
+					p,td {
+						font-size: $font-size-base * 0.8 !important;
+					}
+	
+					.purchase-location {
+						text-align: center;
+						font-weight: 600;
+						margin: 0;
+						text-overflow: ellipsis;
+						overflow: hidden;
+						white-space: nowrap;
+					}
+	
+					.purchase-address {
+						text-align: center;
+					}
+	
+					.purchase-date {
+						text-align: right;
+						font-style: oblique;
+					}
+	
+					table {
+						width: 100%;
+	
+						td.items {
+							text-align: left;
+						}
+						td.sub-total {
+							text-align: right;
+						}
+						td.divider {
+							text-align: right;
+						}
+						td.total-label, td.total {
+							text-align: right;
+							text-transform: uppercase;
+							font-weight: 600;
+						}
+					}
+				}
+	
+			}
+		}
+		
+		div.post-body {
+			max-width: 750px;
+			
+			> p:first-of-type {
+				
+				@include md-up {
+					font-size: 				$font-size-base + 8px;
+					margin-bottom: 			$font-size-base + 8px;				
+				}
+			}
+		}
+		
+		div#beans-stats {
+			
+			display: grid;
+			
+			grid-template-columns: 		auto;
+			grid-template-rows:			auto auto auto auto auto;
+			grid-row-gap: 				10px;
+			grid-template-areas:		"title"
+										"one"
+										"two"
+										"three"
+										"explain";
+			
+			@include md-up {
+				grid-template-columns: 		1fr 1fr 1fr;
+				grid-column-gap: 			40px;
+				grid-template-rows:			auto auto auto;
+				grid-template-areas:		"title title title"
+											"one two three"
+											"explain explain explain";
+			}
+
+			margin: 4rem 0;
+
+			div.flavour {
+				
+				&:first-of-type {
+					grid-area:		one;
+				}
+				
+				&:nth-of-type(2) {
+					grid-area:		two;
+				}				
+				
+				&:nth-of-type(3) {
+					grid-area:		three;
+				}
+				
+				width: 100%;
+				min-height: 125px;
+
+				padding: 0;
+				margin: 0.5rem 0px;
+
+				background: $body-color;
+				color: $body-background;
+
+				word-break: break-word;
+				word-wrap: break-word;
+
+				p.flavour-text {
+					margin: 0;
+					padding: 1rem;
+
+					font-weight: 800;
+					text-transform: uppercase;
+					font-size: 1.5rem;
+				}
+
+				@include box-shadow-shallow;
+
+			}
+			
+			h2#flavours {
+				grid-area: title;
+			}
+			
+			p#explain {
+				grid-area:		explain;
+			}
+
+		}
+
+	
+	}
+	
+	iframe {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: $font-size-base !important;
+		margin-bottom: $font-size-base !important;
+	}
+	
+	div.footnotes {
+		margin-top: 40px;
+		
+		width: 		100%;
+		padding: 	10px 20px;
+		
+		background: $gray-700;
+						
+		&:before {
+			@extend h4;
+			content: "Footnotes";
+			
+			display: block;
+			width: 100%;
+			
+			font-size: 		$font-size-base !important;
+			padding: 0;
+		}
+		
+		ul {
+			padding-left: 20px;
+		}
+		
+		li, p {
+			font-size: 		$font-size-base - 4px !important;
+			padding: 		0;
+		}
+		
+	}
+		
+}

@@ -1,0 +1,44 @@
+---
+layout: page
+---
+
+{% for post in site.posts %}
+
+	{% assign currentdate = post.date | date: "%Y" %}
+	
+	{% if currentdate != date %}
+	
+	{% unless forloop.first %}
+	</ul>
+	
+	</section>
+	{% endunless %}
+	
+	<section>
+		
+	<h2 id="y{{post.date | date: "%Y"}}" class="loop-header">{{ currentdate }}</h2>
+	
+	<ul id="loop">
+	
+	{% assign date = currentdate %}
+	
+	{% endif %}
+	
+		<li>
+			<a href="{{ post.url }}" title="Read {{ post.title }}">
+				<li>
+					<article>
+						<h3>{{ post.title }}</h3>
+						<p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %B %Y" }}</time>
+					</article>
+				</li>
+			</a>
+		</li>	
+	
+	{% if forloop.last %}
+	</ul>
+	
+	</section>
+	{% endif %}
+
+{% endfor %}

@@ -2,7 +2,7 @@
 title:  "Boulangerie Bon Matin" # Title goes here
 date:   2017-06-04 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shops # always either 'beans' or 'shop' 
+layout: post
 
 image: /bon-matin/latte.jpg # /coffee.jpg is default
 

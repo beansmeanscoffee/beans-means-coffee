@@ -2,38 +2,32 @@
 layout: default
 ---
 
-<div id="post">
+<main>
+			
+	<header id="site-header">
+									
+		<div class="post-header container">
 
-	<div id="header">
-
-		<div class="container">
-
-			<h1>
-				<span class="small-header">Beans means coffee</span>
-				{{ page.title }}
-			</h1>
-			<a class="arrow-down" href="#post-content"><span class="sr-only">Skip to content</span></a>
-
+			<nav>
+				<a href="{{ site.url }}">Beans Means Coffee</a>
+			</nav>
+			
+			<h1 id="post-title">{{ page.title }}</h1>
+		
 		</div>
+		
+	</header>
+				
+	<div id="content" class="container">
 
+		{{ content }}
+							
 	</div>
+	
+	<footer id="site-footer" class="container">
+		
+		<p>John Peart and David Greaves</p>
+		
+	</footer>
 
-	<div id="post-content">
-
-		<div class="container">
-
-			<div class="row flex-items-xs-center">
-
-				<div class="col-xs-12 col-sm-10 col-md-8">
-
-					{{ content }}
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-
-</div>
+</main>

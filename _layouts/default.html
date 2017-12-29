@@ -3,18 +3,10 @@
 
   {% include head.html %}
 
-  <body>
-
-	<a href="#post-content" class="sr-only">Skip to content</a>
-
- 	{% include navbar.html %}
+  <body id="{{ page.layout }}">
 
     {{ content }}
-
-	{% include footer.html %}
-
-	{% include scripts.html %}
-
+    
   </body>
 
 </html>

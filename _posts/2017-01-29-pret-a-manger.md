@@ -2,7 +2,7 @@
 title:  "Pret A Manger" # Title goes here
 date:   2017-01-29 # Date of post in format YYYY-MM-DD 
 categories: shops # Either 'beans' or 'shops'
-layout: shops #always post
+layout: post
 
 image: /pret-a-manger/flatwhite.jpeg # /coffee.jpg is default
 

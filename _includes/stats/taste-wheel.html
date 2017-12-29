@@ -1,73 +1,49 @@
-<div class="row flex-items-xs-center">
+{% for lookup in site.data.coffeewheel %}
+{% for tastes in page.wheel %}
 
-	{% for lookup in site.data.coffeewheel %}
-	{% for tastes in page.wheel %}
+	{% if lookup.third == tastes.flavour %}
 
-		{% if lookup.third == tastes.flavour %}
+			<div class="flavour" style="color: #{{ lookup.firsttext }}; background: #{{ lookup.firstbg }};">
 
-			<div class="col-xs-12 col-sm col-md col-lg col-xl">
-
-				<div class="flavour" style="color: #{{ lookup.firsttext }}; background: #{{ lookup.firstbg }};">
-
-					<p class="flavour-text">{{ lookup.first }}</p>
-
-				</div>
+				<p class="flavour-text">{{ lookup.first }}</p>
 
 			</div>
 
-			{% if lookup.second != lookup.first %}
+		{% if lookup.second != lookup.first %}
 
-			<div class="col-xs-12 col-sm col-md col-lg col-xl">
+			<div class="flavour" style="color: #{{ lookup.secondtext }}; background: #{{ lookup.secondbg }};">
 
-				<div class="flavour" style="color: #{{ lookup.secondtext }}; background: #{{ lookup.secondbg }};">
-
-					<p class="flavour-text">{{ lookup.second }}</p>
-
-				</div>
+				<p class="flavour-text">{{ lookup.second }}</p>
 
 			</div>
-
-			{% endif %}
-
-			<div class="col-xs-12 col-sm col-md col-lg col-xl">
-
-				<div class="flavour" style="color: #{{ lookup.thirdtext }}; background: #{{ lookup.thirdbg }};">
-
-					<p class="flavour-text">{{ lookup.third }}</p>
-
-				</div>
-
-			</div>
-
-		{% elsif lookup.second == tastes.flavour %}
-
-			<div class="col-xs-12 col-sm col-md col-lg col-xl">
-
-				<div class="flavour" style="color: #{{ lookup.firsttext }}; background: #{{ lookup.firstbg }};">
-
-					<p class="flavour-text">{{ lookup.first }}</p>
-
-				</div>
-
-			</div>
-
-			{% if lookup.second != lookup.first %}
-
-			<div class="col-xs-12 col-sm col-md col-lg col-xl">
-
-				<div class="flavour" style="color: #{{ lookup.secondtext }}; background: #{{ lookup.secondbg }};">
-
-					<p class="flavour-text">{{ lookup.second }}</p>
-
-				</div>
-
-			</div>
-
-			{% endif %}
 
 		{% endif %}
 
-	{% endfor %}
-	{% endfor %}
+			<div class="flavour" style="color: #{{ lookup.thirdtext }}; background: #{{ lookup.thirdbg }};">
 
-</div>
+				<p class="flavour-text">{{ lookup.third }}</p>
+
+			</div>
+
+	{% elsif lookup.second == tastes.flavour %}
+
+			<div class="flavour" style="color: #{{ lookup.firsttext }}; background: #{{ lookup.firstbg }};">
+
+				<p class="flavour-text">{{ lookup.first }}</p>
+
+			</div>
+
+		{% if lookup.second != lookup.first %}
+
+			<div class="flavour" style="color: #{{ lookup.secondtext }}; background: #{{ lookup.secondbg }};">
+
+				<p class="flavour-text">{{ lookup.second }}</p>
+
+			</div>
+
+		{% endif %}
+
+	{% endif %}
+
+{% endfor %}
+{% endfor %}

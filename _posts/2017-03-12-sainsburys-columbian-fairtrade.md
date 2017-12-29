@@ -2,7 +2,7 @@
 title:  "Sainsbury's 'Taste the Difference' Columbian Fairtrade" # Title goes here
 date:   2017-03-12 # Date of post in format YYYY-MM-DD 
 categories: beans # Either 'beans' or 'shops'
-layout: beans # Either 'beans' or 'shops'
+layout: post
 
 image: /sainsburys-columbian-fairtrade/coffee.jpg # /coffee.jpg is default
 

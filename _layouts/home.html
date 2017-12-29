@@ -1,98 +1,85 @@
 ---
 layout: default
 ---
+			
+<header class="container">
+			
+	<h1>Beans<br>means<br>coffee</h1>
 
-<div id="home">
+</header>
 
-	<div id="header">
-
-		<div class="container">
-
-			<h1>Beans<br>means<br>coffee</h1>
-			<a class="arrow-down" href="#post-content"><span class="sr-only">Skip to content</span></a>
-
-		</div>
-
-	</div>
-
-	<div id="post-content">
-
-		<div class="container">
-
-			<div class="row flex-items-xs-center">
-
-				<div id="intro" class="col-xs-12 col-sm-10 col-md-8">
-
-					<div id="intro-content">
-
-					{{ content }}
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-		<div class="container">
-
-			<div class="row flex-items-xs-center">
-
-				<div class="col-xs-12 col-sm-10 col-md-8">
-
-					<h1><a href="{{ '/beans/' | prepend: site.baseurl | prepend: site.url }}">Beans</a></h1>
-
-				</div>
-
-			</div>
-
-		</div>
-
-		<div class="card-stack-container">
-
-			<div class="card-stack">
-
-				{% include loop-card-stack.html %}
-
-			</div>
-
-		</div>
-
-		<div class="container">
-
-			<div class="row flex-items-xs-center">
-
-				<div class="col-xs-12 col-sm-10 col-md-8">
-
-					<h1><a href="{{ '/shops/' | prepend: site.baseurl | prepend: site.url }}">Shops</a></h1>
-
-					<ul id="loop">
-
-					{% for post in site.categories.shops limit: 5 %}
-						{% if post.url %}
-
-						<a href="{{ post.url }}">
-							<li>
-								<article>
-									<h2>{{ post.title }}</h2>
-									<p><time datetime="{{ post.date }}">{{ post.date | date: "%d %B %Y" }}</time>
-								</article>
-							</li>
-						</a>
-
-						{% endif %}
-					{% endfor %}
-
-					</ul>
-
-				</div>
-
-			</div>
-
-		</div>
+<main class="container">
+		
+	<div id="blurb">
+		
+		<p>Coffee.</p>
+		
+		<p>We drink a lot of it.</p>
+		
+		<p>And we’re on a voyage of bean discovery: we want to try as many different types of coffee as we can.</p>
+		
+		<p>So we’ve decided to start blogging about our bean-based experiences, and to share them with you.</p>
+		
+		<p>We’ll be writing about <a href="/beans/">the beans we try</a> and the <a href="/shops/">shops we visit</a>. If you’d like us to try a coffee or a shop, then <a href="/about/">get in touch</a>.</p>
 
 	</div>
+			
+	<div id="beans">
+	
+		<h2>Beans</h2>
+		
+		<ul id="loop">
 
-</div>
+		{% for post in site.categories.beans %}
+			{% if post.url %}
 
+			<a href="{{ post.url }}" title="Read {{ post.title }}">
+				<li>
+					<article class="left">
+						<h3>{{ post.title }}</h3>
+						<p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %B %Y" }}</time>
+					</article>
+				</li>
+			</a>
+
+			{% endif %}
+		{% endfor %}
+
+		</ul>
+	
+	</div>
+	
+	
+	<div id="shops">
+		
+		<h2>Shops</h2>
+		
+		<ul id="loop">
+
+		{% for post in site.categories.shops %}
+			{% if post.url %}
+
+			<a href="{{ post.url }}">
+				<li>
+					<article class="right">
+						<h3>{{ post.title }}</h3>
+						<p><time datetime="{{ post.date }}">{{ post.date | date: "%d %B %Y" }}</time>
+					</article>
+				</li>
+			</a>
+
+			{% endif %}
+		{% endfor %}
+
+		</ul>
+		
+	</div>
+	
+	<footer id="site-footer" class="container">
+		
+		<p>John Peart and David Greaves</p>
+		
+	</footer>
+
+	
+</main>
