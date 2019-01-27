@@ -8,7 +8,7 @@ description: "We drink a lot of coffee. This is what we think of the ones we try
 keywords: "coffee, espresso, latte, beans, taste test, cafe, drink"
 
 baseurl: "" # e.g. /blog
-url: "http://coffee.johnpe.art" # e.g. http://example.com
+url: "https://coffee.johnpe.art" # e.g. http://example.com
 author: John Peart and David Greaves
 logo: "/site/beans-means-coffee.png"
 
